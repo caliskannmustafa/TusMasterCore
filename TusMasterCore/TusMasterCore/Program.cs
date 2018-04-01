@@ -21,5 +21,7 @@ namespace TusMasterCore
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
                 .Build();
+
+
     }
 }
